@@ -9,9 +9,9 @@
 
 ## Hi there 👋
 
-I am Shikhar Pratap Singh, a final-year B.Tech Computer Science student passionate about technology and innovation. My expertise lies in Java, C++, web development (HTML, CSS, JavaScript, React.js), MongoDB, Spring Boot, and Data Structures & Algorithms.
+I am Shikhar Pratap Singh, a final-year B.Tech Computer Science student passionate about technology and innovation. My expertise lies in Java, C++, web development (HTML, CSS ), MongoDB, Spring Boot, and Data Structures & Algorithms.
 
-- 🎤 I love sharing knowledge through blog posts, public speaking, and mentorship.
+- 🎤 I love sharing knowledge through blog posts
 - 🌱 I’m always exploring new technologies and open-source contributions.
 - 💻 I'm skilled in developing full-stack applications, solving algorithmic challenges, and working on backend services.
 - 📌 I am passionate about web development, cloud computing, open-source, and community work.
