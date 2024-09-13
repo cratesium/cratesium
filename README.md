@@ -38,12 +38,6 @@ I am Shikhar Pratap Singh, a final-year B.Tech Computer Science student passiona
 
 ---
 
-## My GitHub Stats
-
-<p>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&theme=radical" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=cratesium&theme=tokyonight" />
-</p>
 
 ---
 
