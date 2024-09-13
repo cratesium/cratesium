@@ -30,33 +30,13 @@ I am Shikhar Pratap Singh, a final-year B.Tech Computer Science student passiona
 
 ---
 
-## Connect with me 🌍
-
-- 📧 Email: [shikhar.21b0121053@abes.ac.in](mailto:shikhar.21b0121053@abes.ac.in)
-- 📱 Mobile: +91 9015061999
-- 💬 Let's discuss anything tech, open source, or career advice. I'm always happy to help!
-
----
 
 
 ---
 
-### Languages and Tools:
-<img align="left" alt="Java" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/java/java.png" />
-<img align="left" alt="C++" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png" />
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/react/react.png" />
-<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/mongodb/mongodb.png" />
-<img align="left" alt="Spring Boot" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/spring-boot/spring-boot.png" />
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/css/css.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/javascript/javascript.png" />
-<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" />
-<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" />
-<img align="left" alt="VSCode" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/visual-studio-code/visual-studio-code.png" />
-<br />
 
-<h1 align="center">Hi 👋, I'm Shikhar Pratap Singh</h1>
-<h3 align="center">A passionate Backend developer from India</h3>
+
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=cratesium&label=Profile%20views&color=0e75b6&style=flat" alt="cratesium" /> </p>
 
@@ -92,3 +72,11 @@ I am Shikhar Pratap Singh, a final-year B.Tech Computer Science student passiona
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&locale=en" alt="cratesium" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cratesium&" alt="cratesium" /></p>
+## Connect with me 🌍
+
+- 📧 Email: [shikhar.21b0121053@abes.ac.in](mailto:shikhar.21b0121053@abes.ac.in)
+- 📱 Mobile: +91 9015061999
+- 💬 Let's discuss anything tech, open source, or career advice. I'm always happy to help!
+
+---
+
