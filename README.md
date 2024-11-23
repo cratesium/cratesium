@@ -26,7 +26,7 @@ Explore more projects: [GitHub Repositories](https://github.com/cratesium?tab=re
 ## Connect With Me 🌐  
 
 📧 **Email:** [cratesium@outlook.com](mailto:cratesium@outlook.com) | 📱 **Mobile:** +91 9015061999  
-💬 **Let’s Discuss:** Tech, open source, or career advice!  
+💬 **Let’s Discuss:** Tech
 
 ---
 
