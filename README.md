@@ -29,7 +29,7 @@ Check out more projects: [GitHub Repositories](https://github.com/cratesium?tab=
 
 ## Let's Connect 🌐  
 
-- 📧 **Email:** [shikhar.21b0121053@abes.ac.in](mailto:cratesium@outlook.com)  
+- 📧 **Email:** [cratesium@outlook.com](mailto:cratesium@outlook.com)  
 - 📱 **Mobile:** +91 9015061999  
 - 💬 Open to discussions about tech, open source, and career advice!  
 
