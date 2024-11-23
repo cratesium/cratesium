@@ -37,7 +37,3 @@ Explore more projects: [GitHub Repositories](https://github.com/cratesium?tab=re
 
 ---
 
-### 🌌 Custom Shooting Stars Background  
-
-To view this README with a beautiful **shooting stars background**, check out my [GitHub Pages site here](https://shikharpratapsinghportfolio.netlify.app/)!  
-
