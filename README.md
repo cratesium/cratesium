@@ -39,9 +39,8 @@ Explore more projects: [GitHub Repositories](https://github.com/cratesium?tab=re
 
 ---
 
-## View in Action 🌌  
 
-Check out this **README with a dynamic shooting stars background** [here](https://shikharpratapsinghportfolio.netlify.app/).  
+
 
 ---
 
