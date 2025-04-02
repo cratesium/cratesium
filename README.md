@@ -10,8 +10,8 @@
 
 Hi, I’m **Shikhar Pratap Singh**, a final-year B.Tech Computer Science student passionate about technology and problem-solving.  
 
-- 🔭 **Currently Working On:** Journal Application  and TypeScript
-- 🌱 **Learning:** Spring Boot, Kafka  
+- 🔭 **Currently Working On:** Journal Application  and Spring Security
+- 🌱 **Learning:** Spring Boot, Kafka ,java new features
 - 💻 **Skills:** Java, C++, SQL, MongoDB, Spring Boot, DSA, Web Development  
 - ⚡ **Fun Fact:** I love exploring cosmology!  
 
