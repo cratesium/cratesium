@@ -35,7 +35,7 @@ Explore more projects: [GitHub Repositories](https://github.com/cratesium?tab=re
 ## Stats 📊  
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&locale=en)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cratesium)  
+
 
 ---
 
