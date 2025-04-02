@@ -31,7 +31,7 @@ Explore more projects: [GitHub Repositories](https://github.com/cratesium?tab=re
 💬 **Let’s Discuss:** Tech  
 
 ---
-
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cratesium&show_icons=true&locale=en&layout=compact" alt="sh3yash" /></p>
 
 
 
