@@ -87,9 +87,9 @@ A passionate **backend-focused software engineer** with expertise in **Java, Spr
 ## 📊 GitHub Analytics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=shikhar-pratap&show_icons=true&locale=en&theme=dark" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&locale=en&theme=dark" alt="GitHub Stats" />
 <br />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shikhar-pratap&theme=dark" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=cratesium&theme=dark" alt="GitHub Streak" />
 </div>
 
 ---
