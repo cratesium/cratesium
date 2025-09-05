@@ -18,7 +18,7 @@ A passionate **backend-focused software engineer** with expertise in **Java, Spr
 
 ---
 
-##  Technical Skills
+## 💼 Technical Skills
 
 ### 💻 Languages
 <p align="left">
@@ -28,38 +28,38 @@ A passionate **backend-focused software engineer** with expertise in **Java, Spr
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/> CSS
 </p>
 
-###  Backend & Architecture
+### 🧠 Backend & Architecture
 <p align="left">
 <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="40" height="40"/> Spring Boot
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="40" height="40"/> Nginx
 </p>
 
-###  Databases & Data Stack
+### 🛢 Databases & Data Stack
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/> MySQL
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle DB" width="40" height="40"/> Oracle Database
 <img src="https://img.icons8.com/color/48/redis.png" alt="Redis" width="40" height="40"/> Redis
 </p>
 
-###  DevOps & Logging
+### 🚀 DevOps & Logging
 <p align="left">
 <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins" width="40" height="40"/> Jenkins
 <img src="https://img.icons8.com/color/48/kibana.png" alt="Kibana" width="40" height="40"/> Kibana
 <img src="https://img.icons8.com/color/48/logstash.png" alt="Logstash" width="40" height="40"/> Logstash
-<img src="https://www.vectorlogo.zone/logos/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/> AWS
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/> AWS
 </p>
 
-###  Productivity & Tools
+### 🛠 Productivity & Tools
 <p align="left">
-<img src="https://cdn.worldvectorlogo.com/logos/git-scm-icon.svg" alt="Git" width="40" height="40"/> Git
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> Git
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="40" height="40"/> GitHub
-<img src="https://wac-cdn.atlassian.com/dam/jcr:.../Bitbucket-icon-gradient-blue.svg" alt="Bitbucket" width="40" height="40"/> Bitbucket
-<img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="Jira" width="40" height="40"/> Jira
+<img src="https://cdn.worldvectorlogo.com/logos/bitbucket-icon.svg" alt="Bitbucket" width="40" height="40"/> Bitbucket
+<img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" alt="Jira" width="40" height="40"/> Jira
 <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/> Postman
-<img src="https://cdn.worldvectorlogo.com/logos/apache-maven-1.svg" alt="Maven" width="40" height="40"/> Maven
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" width="40" height="40"/> Maven
 </p>
 
-###  IDEs & Code Workflows
+### 🧩 IDEs & Code Workflows
 <p align="left">
 <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg" alt="IntelliJ IDEA" width="40" height="40"/> IntelliJ IDEA
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Eclipse-Luna-Logo.svg" alt="Eclipse" width="40" height="40"/> Eclipse
@@ -67,7 +67,7 @@ A passionate **backend-focused software engineer** with expertise in **Java, Spr
 <img src="https://avatars.githubusercontent.com/u/16734757?s=200&v=4" alt="Cursor" width="40" height="40"/> Cursor
 </p>
 
-###  Testing Frameworks
+### 🧪 Testing Frameworks
 <p align="left">
 <img src="https://junit.org/junit5/assets/img/junit5-logo.png" alt="JUnit" width="60" height="40"/> JUnit
 <img src="https://avatars.githubusercontent.com/u/19369327?s=200&v=4" alt="Mockito" width="40" height="40"/> Mockito
@@ -75,7 +75,7 @@ A passionate **backend-focused software engineer** with expertise in **Java, Spr
 
 ---
 
-##  What I Build
+## 🏗️ What I Build
 
 - **Enterprise Backend Systems**: Scalable Java-based microservices handling millions of records  
 - **APIs & Integrations**: Robust backend services with Redis, Elasticsearch, Kafka, and more  
@@ -84,7 +84,7 @@ A passionate **backend-focused software engineer** with expertise in **Java, Spr
 
 ---
 
-##  GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=shikhar-pratap&show_icons=true&locale=en&theme=dark" alt="GitHub Stats" />
