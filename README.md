@@ -13,10 +13,17 @@
 
 ## 👨‍💻 About Me
 
-- 🔭 I'm a **Backend Developer** focused on building scalable, reliable systems
-- 🌱 Currently learning more about **distributed systems & cloud architecture**
-- ⚡ I write clean, efficient, and well-tested code
-- 💬 Ask me about **Java, APIs, and backend architecture**
+🚀 **Java Backend Engineer** with a strong foundation in **Data Structures & Algorithms**, focused on building **distributed and highly scalable backend systems** using the Java & Spring ecosystem.
+
+⚙️ I specialize in designing and developing **high-performance APIs and microservices** using **Spring Boot, Spring MVC, Spring Security, Spring Batch, and Spring Reactive (WebFlux)** — following industry-standard SDLC practices and MVC-based architecture.
+
+🗄️ My experience spans distributed system components and data platforms including **SQL, MongoDB, Redis (caching)**, and **Apache Kafka** for event-driven architectures — with observability via **ELK, Prometheus, and Grafana** in production systems.
+
+☁️ I work with **Docker, Kubernetes**, and cloud-native deployments on **AWS (EC2, EKS)**, support **CI/CD pipelines with Jenkins**, and follow **Git-based workflows** across Git, GitHub, and Bitbucket. I also have hands-on experience with **MCP servers** and a solid functional understanding of **DevOps practices**.
+
+🤖 Beyond traditional backend engineering, I actively explore **AI-driven architectures** — including **Agentic AI, RAG (Retrieval-Augmented Generation), and vector databases** — to build intelligent, data-aware applications that integrate modern AI capabilities with scalable backend infrastructure.
+
+🌐 Continuously expanding expertise across **cloud-native systems, distributed architectures**, and emerging technologies such as **Web3 and AI-powered platforms**.
 
 ---
 
@@ -27,21 +34,48 @@
 ### Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-### Frameworks & Tools
+### Spring Ecosystem
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring WebFlux](https://img.shields.io/badge/Spring_WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-### Databases
+### Databases & Messaging
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 
-### DevOps & Tools
+### AI & Emerging Tech
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented_Gen-6C63FF?style=for-the-badge)
+![Vector Databases](https://img.shields.io/badge/Vector_Databases-FF6B6B?style=for-the-badge)
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+
+### DevOps & CI/CD
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazon-eks&logoColor=white)
+![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
+
+### Observability & Monitoring
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=white)
+
+### IDEs & Tools
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
@@ -70,7 +104,10 @@
 ![Microservices](https://img.shields.io/badge/Microservices-Architecture-6C63FF?style=for-the-badge)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-6C63FF?style=for-the-badge)
+![Vector DB](https://img.shields.io/badge/Vector_Databases-FF6B6B?style=for-the-badge)
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
 
 </div>
 
@@ -81,7 +118,9 @@
 - ☕ Fuelled entirely by coffee and clean code
 - 🧩 I enjoy solving DSA problems — one algorithm at a time
 - 🔍 I believe great backend work is invisible — it just *works*
-- 📚 Always reading about system design patterns
+- 🤖 Currently deep-diving into Agentic AI & RAG pipelines
+- 🌐 Exploring the intersection of distributed systems & Web3
+- 📚 Always reading about system design, distributed patterns & emerging tech
 
 ---
 
