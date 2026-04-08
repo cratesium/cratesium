@@ -1,3 +1,5 @@
+<!-- README.md for cratesium -->
+
 <!-- Header -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=160&section=header&text=Hi%20there%2C%20I'm%20cratesium%20👋&fontSize=36&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
@@ -5,6 +7,7 @@
 
 <br/>
 
+<!-- Typing SVG -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Backend+Developer;Java+Enthusiast;Building+robust+systems;Clean+code+advocate" alt="Typing SVG" />
 </div>
@@ -17,13 +20,13 @@
 
 ⚙️ I specialize in designing and developing **high-performance APIs and microservices** using **Spring Boot, Spring MVC, Spring Security, Spring Batch, and Spring Reactive (WebFlux)** — following industry-standard SDLC practices and MVC-based architecture.
 
-🗄️ My experience spans distributed system components and data platforms including **SQL, MongoDB, Redis (caching)**, and **Apache Kafka** for event-driven architectures — with observability via **ELK, Prometheus, and Grafana** in production systems.
+🗄️ Experience with distributed system components and data platforms including **SQL, MongoDB, Redis, Apache Kafka** — with observability via **ELK, Prometheus, Grafana**.
 
-☁️ I work with **Docker, Kubernetes**, and cloud-native deployments on **AWS (EC2, EKS)**, support **CI/CD pipelines with Jenkins**, and follow **Git-based workflows** across Git, GitHub, and Bitbucket. I also have hands-on experience with **MCP servers** and a solid functional understanding of **DevOps practices**.
+☁️ Cloud-native deployments with **Docker, Kubernetes, AWS (EC2, EKS)**, supporting **CI/CD pipelines with Jenkins**, and Git-based workflows.
 
-🤖 Beyond traditional backend engineering, I actively explore **AI-driven architectures** — including **Agentic AI, RAG (Retrieval-Augmented Generation), and vector databases** — to build intelligent, data-aware applications that integrate modern AI capabilities with scalable backend infrastructure.
+🤖 Exploring **AI-driven architectures**, including **Agentic AI, RAG, and vector databases**, integrating intelligent AI with scalable backend systems.
 
-🌐 Continuously expanding expertise across **cloud-native systems, distributed architectures**, and emerging technologies such as **Web3 and AI-powered platforms**.
+🌐 Expanding expertise in **cloud-native systems, distributed architectures, Web3, and AI-powered platforms**.
 
 ---
 
@@ -86,12 +89,15 @@
 ## 📊 GitHub Stats
 
 <div align="center">
+  <!-- GitHub Summary -->
   <img src="https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
   &nbsp;&nbsp;
+  <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cratesium&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </div>
 
 <div align="center">
+  <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=cratesium&theme=tokyonight&hide_border=true" height="165"/>
 </div>
 
@@ -100,7 +106,6 @@
 ## 🌱 Currently Learning
 
 <div align="center">
-
 ![Microservices](https://img.shields.io/badge/Microservices-Architecture-6C63FF?style=for-the-badge)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -108,29 +113,86 @@
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-6C63FF?style=for-the-badge)
 ![Vector DB](https://img.shields.io/badge/Vector_Databases-FF6B6B?style=for-the-badge)
 ![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-
 </div>
 
 ---
 
 ## ⚡ Fun Facts
 
-- ☕ Fuelled entirely by coffee and clean code
-- 🧩 I enjoy solving DSA problems — one algorithm at a time
-- 🔍 I believe great backend work is invisible — it just *works*
-- 🤖 Currently deep-diving into Agentic AI & RAG pipelines
-- 🌐 Exploring the intersection of distributed systems & Web3
-- 📚 Always reading about system design, distributed patterns & emerging tech
+- ☕ Fuelled entirely by coffee and clean code  
+- 🧩 Solving DSA problems — one algorithm at a time  
+- 🔍 Backend work is invisible — it just *works*  
+- 🤖 Deep-diving into Agentic AI & RAG pipelines  
+- 🌐 Exploring distributed systems & Web3  
+- 📚 Reading system design, distributed patterns & emerging tech  
 
 ---
 
 ## 📈 Contribution Graph
 
 <div align="center">
+  <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=cratesium&theme=tokyo-night&hide_border=true" width="100%"/>
 </div>
 
 ---
+
+<!-- Optional Dynamic Sections -->
+<!-- Uncomment the ones you like -->
+
+<!-- GitHub Trophies -->
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=cratesium&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
+</div>
+
+
+<!-- Snake Contribution -->
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/cratesium/cratesium/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</div>
+
+
+<!-- Metrics Dashboard -->
+
+<div align="center">
+  <img src="https://metrics.lecoq.io/cratesium?template=classic&config.timezone=Asia%2FCalcutta" />
+</div>
+
+
+<!-- Profile Card -->
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cratesium&theme=tokyonight" />
+</div>
+
+
+<!-- Visitor Counter -->
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/cratesium/count.svg" />
+</div>
+
+
+<!-- Dev Quote -->
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
+
+
+<!-- WakaTime -->
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=cratesium&theme=tokyonight"/>
+</div>
+
+
+<!-- Animated Divider -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212750405-3e0b3f1c-9c7e-4e35-8c3c-0c2f2f3a4b3f.gif" width="100%">
+
 
 <!-- Footer -->
 <div align="center">
