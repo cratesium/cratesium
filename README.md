@@ -126,9 +126,9 @@
 
 ## 📈 Contribution Graph
 
-<!-- <div align="center">
+ <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=cratesium&theme=tokyo-night&hide_border=true" width="100%"/>
-</div> -->
+</div> 
 
 ---
 
