@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head and Meta Tags -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shikhar Pratap Singh — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  /* ── Minimalist Variables ── */
+  :root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #666666;
+    --border: #000000;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --mono: 'DM Mono', monospace;
+    --display: 'Bebas Neue', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--white);
+    color: var(--black);
+    font-family: var(--serif);
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+
+  /* ── Navigation ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 60px;
+    background: var(--white);
+    border-bottom: 2px solid var(--border);
+  }
+  .nav-logo {
+    font-family: var(--display);
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: var(--black);
+    text-decoration: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .nav-links a {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--black);
+    text-decoration: none;
+  }
+  .nav-links a:hover { text-decoration: underline; }
+
+  /* ── Hero ── */
+  #hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid var(--border);
+  }
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 60px 80px;
+    border-right: 2px solid var(--border);
+  }
+  .hero-tag {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 20px;
+  }
+  .hero-name {
+    font-family: var(--display);
+    font-size: clamp(45px, 8vw, 100px);
+    line-height: 0.9;
+    color: var(--black);
+  }
+  .hero-desc {
+    font-family: var(--serif);
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 24px;
+    max-width: 420px;
+    line-height: 1.6;
+  }
+  .hero-cta {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid var(--black);
+    transition: all 0.2s;
+    background: var(--black); 
+    color: var(--white);
+  }
+  .btn-primary:hover { background: var(--white); color: var(--black); }
+
+  .hero-right {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .hero-photo {
+    width: 100%;
+    height: 100%;
+    max-height: calc(100vh - 80px);
+    object-fit: cover;
+    filter: grayscale(100%);
+    display: block;
+  }
+
+  /* ── Section Wrapper ── */
+  .section {
+    padding: 100px 60px;
+    border-bottom: 2px solid var(--border);
+  }
+  .section-label {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  .section-title {
+    font-family: var(--display);
+    font-size: clamp(36px, 6vw, 70px);
+    line-height: 1;
+    color: var(--black);
+    margin-bottom: 40px;
+  }
+
+  /* ── About ── */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+  .about-text p { font-size: 20px; line-height: 1.6; color: var(--black); margin-bottom: 20px; }
+  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .stat-card { border: 2px solid var(--border); padding: 24px; }
+  .stat-num { font-family: var(--display); font-size: clamp(32px, 5vw, 48px); color: var(--black); }
+  .stat-label { font-family: var(--mono); font-size: 12px; color: var(--gray); text-transform: uppercase; }
+
+  /* ── Experience ── */
+  .exp-item {
+    display: grid; grid-template-columns: 240px 1fr; gap: 40px;
+    padding: 40px 0; border-top: 2px solid var(--border);
+  }
+  .exp-company { font-family: var(--display); font-size: 32px; color: var(--black); }
+  .exp-period, .exp-role { font-family: var(--mono); font-size: 12px; color: var(--gray); text-transform: uppercase; margin-top: 8px; }
+  .exp-title { font-size: 24px; font-weight: bold; margin-bottom: 16px; }
+  .exp-bullets { list-style: square; padding-left: 20px; }
+  .exp-bullets li { font-size: 18px; color: var(--gray); line-height: 1.6; margin-bottom: 8px; }
+
+  /* ── Projects ── */
+  .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .project-card { border: 2px solid var(--border); padding: 40px; }
+  .project-num { font-family: var(--mono); font-size: 12px; color: var(--gray); margin-bottom: 16px; }
+  .project-name { font-family: var(--serif); font-size: 28px; font-weight: bold; margin-bottom: 12px; }
+  .project-stack { font-family: var(--mono); font-size: 12px; color: var(--black); margin-bottom: 20px; }
+  .project-desc { font-size: 18px; color: var(--gray); line-height: 1.6; }
+
+  /* ── Skills ── */
+  .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .skill-group { border: 2px solid var(--border); padding: 32px; }
+  .skill-group-name { font-family: var(--mono); font-size: 12px; font-weight: bold; text-transform: uppercase; margin-bottom: 20px; border-bottom: 2px solid var(--border); padding-bottom: 12px; }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skill-tag { font-family: var(--mono); font-size: 12px; padding: 6px 12px; border: 1px solid var(--black); }
+
+  /* ── Competitive Programming ── */
+  .cp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .cp-card { border: 2px solid var(--border); padding: 40px; text-decoration: none; color: inherit; display: block; }
+  .cp-card:hover { background: var(--black); color: var(--white); }
+  .cp-card:hover .cp-gray { color: var(--white); }
+  .cp-platform { font-family: var(--display); font-size: 32px; margin-bottom: 8px; }
+  .cp-handle, .cp-rank { font-family: var(--mono); font-size: 12px; text-transform: uppercase; margin-bottom: 16px; }
+  .cp-rating { font-family: var(--serif); font-size: clamp(36px, 5vw, 48px); font-weight: bold; margin-bottom: 8px; }
+  .cp-solved { font-family: var(--mono); font-size: 12px; }
+  .cp-gray { color: var(--gray); transition: color 0.2s; }
+
+  /* ── Achievements ── */
+  .ach-list { display: flex; flex-direction: column; gap: 20px; }
+  .ach-item { display: flex; gap: 24px; padding: 24px; border: 2px solid var(--border); }
+  .ach-icon { font-family: var(--display); font-size: 32px; font-weight: bold; }
+  .ach-text { font-size: 18px; color: var(--gray); line-height: 1.6; }
+  .ach-text strong { color: var(--black); }
+
+  /* ── Contact & Footer ── */
+  .contact-links { display: flex; flex-direction: column; gap: 16px; }
+  .contact-link { display: flex; justify-content: space-between; padding: 20px; border: 2px solid var(--border); text-decoration: none; color: var(--black); font-family: var(--mono); text-transform: uppercase; font-size: 14px; }
+  .contact-link:hover { background: var(--black); color: var(--white); }
+  
+  footer { padding: 32px 60px; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 12px; color: var(--gray); text-transform: uppercase; }
+
+  /* ── Responsive Mobile Optimization ── */
+  @media (max-width: 900px) {
+    /* Make Navigation wrap and sit cleanly on top */
+    nav { 
+      padding: 16px 20px; 
+      flex-direction: column; 
+      gap: 12px;
+    }
+    .nav-links { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      gap: 12px 20px; 
+    }
+
+    /* Stack Hero Section and restore the Image */
+    #hero { 
+      flex-direction: column; 
+      border-bottom: none; 
+    }
+    .hero-left { 
+      border-right: none; 
+      /* Extra top padding to account for the taller nav menu */
+      padding: 160px 20px 60px; 
+    }
+    .hero-right { 
+      display: block; /* Removed display:none so image shows */
+      width: 100%; 
+      height: 50vh; 
+      min-height: 350px;
+    }
+    .hero-photo {
+      max-height: none; 
+      object-position: top center;
+    }
+
+    /* Standardize Section Paddings */
+    .section { 
+      padding: 60px 20px; 
+    }
+
+    /* Stack Grids to 1 Column */
+    .about-grid, 
+    .exp-item, 
+    .projects-grid, 
+    .skills-grid, 
+    .cp-grid { 
+      grid-template-columns: 1fr; 
+      gap: 32px;
+    }
+    
+    .exp-item {
+      gap: 16px;
+    }
+
+    /* Contact Links Adjustment for tiny screens */
+    .contact-link {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Footer Stacking */
+    footer { 
+      flex-direction: column; 
+      gap: 16px; 
+      text-align: center; 
+      padding: 32px 20px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">SPS</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Work</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#competitive">CP</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<section id="hero">
+  <div class="hero-left">
+    <p class="hero-tag">Software Engineer · Noida, India</p>
+    <h1 class="hero-name">SHIKHAR<br/>PRATAP<br/>SINGH</h1>
+    <p class="hero-desc">
+      Building distributed systems, real-time pipelines, and infrastructure that scales — with craft and precision.
+    </p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <!-- Image is now fully responsive and visible on mobile -->
+    <img id="heroPhoto" src="shikhar.png" class="hero-photo" alt="Shikhar Pratap Singh" />
+  </div>
+</section>
+
+<!-- ── About ── -->
+<section id="about" class="section">
+  <p class="section-label">01. About</p>
+  <h2 class="section-title">THE BUILDER</h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p><strong>Software Engineer at Paytm</strong>. I design systems at the intersection of reliability, scale, and developer experience.</p>
+      <p>My work spans <strong>CDC-driven automation pipelines</strong>, Kafka-based distributed caching, BFF architecture, and SRE tooling — all built to handle real production load with zero tolerance for downtime.</p>
+      <p>Outside of work, I'm a <strong>competitive programmer</strong> — a Codeforces Expert and CodeChef 4★, with 950+ problems solved. I believe constraints are where good engineers are made.</p>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-num">950+</div>
+        <div class="stat-label">Problems Solved</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">1730+</div>
+        <div class="stat-label">CF Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">8.0</div>
+        <div class="stat-label">GPA / 10</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">Top 25</div>
+        <div class="stat-label">Paytm Hackathon</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Experience ── -->
+<section id="experience" class="section">
+  <p class="section-label">02. Experience</p>
+  <h2 class="section-title">WORK</h2>
+
+  <div class="exp-item">
+    <div>
+      <div class="exp-company">PAYTM</div>
+      <div class="exp-period">Jun 2025 – Present</div>
+      <div class="exp-role">Software Engineer</div>
+    </div>
+    <div>
+      <div class="exp-title">Building mission-critical systems at scale</div>
+      <ul class="exp-bullets">
+        <li>Designed a CDC-driven automation pipeline to detect critical state changes and trigger downstream processing, with an intermediate Kafka stage for deterministic behavior under high concurrent load.</li>
+        <li>Developed BFF Interceptors for cookie-based authentication on the Admin Panel.</li>
+        <li>Built a pipeline to replay Not Assigned Tasks, improving task recovery and system reliability.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div>
+      <div class="exp-company">PAYTM</div>
+      <div class="exp-period">Feb 2025 – Jun 2025</div>
+      <div class="exp-role">SWE Intern</div>
+    </div>
+    <div>
+      <div class="exp-title">From intern to full-time in four months</div>
+      <ul class="exp-bullets">
+        <li>Developed multiple RESTful APIs for business requirements using Spring Boot with proper JUnit test coverage.</li>
+        <li>Built a Slack MCP server integrated with Cursor IDE; further integrated with Kibana to auto-send alerts on Slack when 5xx errors exceed a time threshold.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── Projects ── -->
+<section id="projects" class="section">
+  <p class="section-label">03. Projects</p>
+  <h2 class="section-title">SELECTED WORK</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-num">001</div>
+      <div class="project-name">Kafka-Based In-Memory Cache Clearing System</div>
+      <div class="project-stack">Spring Boot · Kafka · MySQL · Redis · EKS</div>
+      <div class="project-desc">
+        Reduced N database calls across N pods to a single coordinated call, significantly cutting DB load in multi-pod deployments. Implemented atomic swap state changes for cache ensuring zero cache misses during transitions. Designed an event-based cache clearing system using Kafka for reliable, ordered cache invalidation across pods.
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-num">002</div>
+      <div class="project-name">Smart Site Reliability System</div>
+      <div class="project-stack">Java · Python · MySQL · MCP · Redis · Kubernetes · EKS</div>
+      <div class="project-desc">
+        Built an automated chat-based SRE tool capable of scaling pods up/down and detecting and healing unhealthy pods on Kubernetes. Integrated heap dump analysis for Java apps to detect memory irregularities and trigger GC when needed. Generates automated reliability reports summarizing system health, actions taken, and resource utilization.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Skills ── -->
+<section id="skills" class="section">
+  <p class="section-label">04. Skills</p>
+  <h2 class="section-title">ARSENAL</h2>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <div class="skill-group-name">Languages</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Python</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">Backend & APIs</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Spring Boot</span>
+        <span class="skill-tag">Spring WebFlux</span>
+        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag">RESTful APIs</span>
+        <span class="skill-tag">WebSocket</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">BFF & Gateway</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Spring Cloud Gateway</span>
+        <span class="skill-tag">BFF Patterns</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">Distributed Systems</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Apache Kafka</span>
+        <span class="skill-tag">Microservices</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">Data & Caching</div>
+      <div class="skill-tags">
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Redis</span>
+        <span class="skill-tag">Elasticsearch</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">Cloud & Infra</div>
+      <div class="skill-tags">
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">EKS</span>
+        <span class="skill-tag">Kubernetes</span>
+        <span class="skill-tag">Jenkins</span>
+        <span class="skill-tag">Flyway</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">Observability</div>
+      <div class="skill-tags">
+        <span class="skill-tag">ELK Stack</span>
+        <span class="skill-tag">Grafana</span>
+        <span class="skill-tag">Prometheus</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">Testing</div>
+      <div class="skill-tags">
+        <span class="skill-tag">JUnit</span>
+        <span class="skill-tag">Mockito</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-name">AI & Tooling</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Agentic AI</span>
+        <span class="skill-tag">Cursor AI</span>
+        <span class="skill-tag">MCP Servers</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">IntelliJ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Competitive Programming ── -->
+<section id="competitive" class="section">
+  <p class="section-label">05. Competitive Programming</p>
+  <h2 class="section-title">ON THE LEADERBOARD</h2>
+  <div class="cp-grid">
+    <a href="https://codeforces.com/profile/sy3166" target="_blank" class="cp-card">
+      <div class="cp-platform">CODEFORCES</div>
+      <div class="cp-handle cp-gray">sy3166</div>
+      <div class="cp-rating">1730+</div>
+      <div class="cp-rank cp-gray">Expert</div>
+      <div class="cp-solved cp-gray">500+ problems · Div. 2 & Div. 3</div>
+    </a>
+    <a href="https://www.codechef.com/users/sy3166" target="_blank" class="cp-card">
+      <div class="cp-platform">CODECHEF</div>
+      <div class="cp-handle cp-gray">sy3166</div>
+      <div class="cp-rating">1907</div>
+      <div class="cp-rank cp-gray">4★ Rated</div>
+      <div class="cp-solved cp-gray">150+ problems · Long Challenge & Starters</div>
+    </a>
+    <a href="https://leetcode.com/u/cratesium/" target="_blank" class="cp-card">
+      <div class="cp-platform">LEETCODE</div>
+      <div class="cp-handle cp-gray">cratesium</div>
+      <div class="cp-rating">350+</div>
+      <div class="cp-rank cp-gray">Problems Solved</div>
+      <div class="cp-solved cp-gray">Trees · Graphs · DP · Sliding Window</div>
+    </a>
+  </div>
+</section>
+
+<!-- ── Achievements ── -->
+<section id="achievements" class="section">
+  <p class="section-label">06. Achievements</p>
+  <h2 class="section-title">HIGHLIGHTS</h2>
+  <div class="ach-list">
+    <div class="ach-item">
+      <div class="ach-icon">01</div>
+      <div class="ach-text"><strong>Top 25 out of 200+ teams</strong> in an internal Paytm Hackathon — built a real-time fraud detection prototype in under 24 hours.</div>
+    </div>
+    <div class="ach-item">
+      <div class="ach-icon">02</div>
+      <div class="ach-text">Solved <strong>950+ problems</strong> across competitive programming platforms covering graphs, DP, segment trees, and binary search.</div>
+    </div>
+    <div class="ach-item">
+      <div class="ach-icon">03</div>
+      <div class="ach-text">Achieved <strong>4-star rating on CodeChef</strong> (1907) and <strong>Expert on Codeforces</strong> (1730+), consistently performing in Div. 2 and Div. 3 contests.</div>
+    </div>
+    <div class="ach-item">
+      <div class="ach-icon">04</div>
+      <div class="ach-text">Volunteered with <strong>LDL NGO</strong> (2022–2023) — taught mathematics, science, and computer literacy to underprivileged children, coordinating weekend sessions with 10+ volunteers.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact ── -->
+<section id="contact" class="section">
+  <p class="section-label">07. Contact</p>
+  <h2 class="section-title">LET'S CONNECT</h2>
+  <div class="contact-links">
+    <a href="mailto:cratesium@gmail.com" class="contact-link">
+      <span>Email</span>
+      <span>cratesium@gmail.com</span>
+    </a>
+    <a href="tel:+919015061999" class="contact-link">
+      <span>Phone</span>
+      <span>+91 9015061999</span>
+    </a>
+    <a href="https://www.linkedin.com/in/shikhar-pratap-singh-09a9b322a/" target="_blank" class="contact-link">
+      <span>LinkedIn</span>
+      <span>shikhar-pratap-singh</span>
+    </a>
+    <a href="https://github.com/cratesium" target="_blank" class="contact-link">
+      <span>GitHub</span>
+      <span>github.com/cratesium</span>
+    </a>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <span>© 2025 Shikhar Pratap Singh</span>
+  <span>Software Engineer · Noida, India</span>
+  <span>Built with precision</span>
+</footer>
+
+</body>
+</html>
