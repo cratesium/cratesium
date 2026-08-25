@@ -4,35 +4,45 @@
 
 ### Software Engineer · Backend · Distributed Systems
 
-**Building scalable systems with Java, Spring Boot & AI**
+Building scalable, reliable systems with **Java, Cloud & AI**.
 
 <br/>
 
-[![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white)](#)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-000000?style=flat-square&logo=springboot&logoColor=white)](#)
-[![Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white)](#)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white)](#)
-[![AWS](https://img.shields.io/badge/AWS-000000?style=flat-square&logo=amazonwebservices&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white)](#)
+<img src="https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-000000?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-000000?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+<img src="https://img.shields.io/badge/Agentic_AI-000000?style=flat-square"/>
 
 </div>
 
 ---
 
-### 👨‍💻 About
+## About
 
-Backend Software Engineer focused on **high-throughput distributed systems**, **event-driven architecture**, and **cloud-native infrastructure**.
+Backend Software Engineer focused on designing **high-throughput distributed systems**, **event-driven architectures**, and **cloud-native applications**.
 
-Currently exploring the intersection of **Agentic AI, MCP, LLM tool integration, and backend systems**.
+I enjoy working at the intersection of traditional backend engineering and modern AI systems — exploring **Agentic AI, MCP, LLM tool integration, RAG, and intelligent automation**.
 
-### ⚙️ Technologies
+---
+
+## Tech & Tools
 
 ```text
-Backend        Java · Spring Boot · WebFlux · REST · WebSocket · Microservices
-Data           MySQL · Redis · Elasticsearch
-Distributed    Apache Kafka · Event-Driven Systems
-AI             Agentic AI · MCP · LLM Tool Integration
-Cloud          AWS · Kubernetes · EKS · Docker · Jenkins · Flyway
-Observability  ELK · Prometheus · Grafana · Kibana
-Testing        JUnit · Mockito
-Engineering    System Design · DSA · SDLC · Agile · Git
+Backend & APIs     Java · Spring Boot · WebFlux · REST APIs · WebSocket · Microservices
+
+Databases & Cache  MySQL · PostgreSQL · MongoDB · Redis · Elasticsearch
+
+Distributed       Apache Kafka · RabbitMQ · Event-Driven Architecture
+
+AI & Automation    Agentic AI · MCP · LLM Tool Integration · RAG · AI Workflows
+
+Cloud & DevOps     AWS · Kubernetes · EKS · Docker · Jenkins · Flyway
+                   Ansible · Terraform
+
+Observability      ELK Stack · Prometheus · Grafana · Kibana
+
+Testing            JUnit · Mockito
+
+Engineering        System Design · DSA · SDLC · Agile · Git
