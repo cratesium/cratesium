@@ -151,49 +151,13 @@ Intelligent & Agentic Systems
 </div>
 
 ---
-
-## 📊 GitHub Activity
+## 📊 GitHub
 
 <div align="center">
 
 <img
-  height="165"
-  src="https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
-/>
-
-<img
-  height="165"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=cratesium&layout=compact&theme=tokyonight&hide_border=true"
-/>
-
-<br/><br/>
-
-<img
-  height="165"
   src="https://github-readme-streak-stats.herokuapp.com/?user=cratesium&theme=tokyonight&hide_border=true"
+  alt="GitHub Streak"
 />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=cratesium&theme=tokyo-night&hide_border=true&area=true"
-  width="100%"
-/>
-
-</div>
-
----
-
-<div align="center">
-
-### ⚡ Build · Scale · Learn · Repeat
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=110&section=footer" width="100%"/>
 
 </div>
