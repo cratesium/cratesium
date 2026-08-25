@@ -1,53 +1,38 @@
-# Hi, I'm Shikhar 👋
-
-**Software Engineer · Backend & Distributed Systems · Java**
-
-I build scalable backend systems, distributed services, and AI-powered developer infrastructure.
-
-### Tech Stack
-
-**Languages**  
-Java · SQL · Python
-
-**Backend**  
-Spring Boot · WebFlux · REST APIs · WebSocket · Microservices
-
-**Distributed Systems & Data**  
-Apache Kafka · Redis · MySQL · Elasticsearch
-
-**AI & Agentic Systems**  
-Agentic AI · MCP · LLM Tool Integration
-
-**Cloud & DevOps**  
-AWS · Kubernetes · Amazon EKS · Docker · Jenkins · Flyway
-
-**Observability & Testing**  
-ELK Stack · Prometheus · Grafana · Kibana · JUnit · Mockito
-
-**Core**  
-System Design · DSA · SDLC · Agile · Git · IntelliJ IDEA
-
----
-
-### Currently Exploring
-
-Distributed systems, scalable microservices, Agentic AI, MCP servers, and AI-powered infrastructure.
-
----
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cratesium&show_icons=true&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cratesium&layout=compact&hide_border=true" height="165"/>
-</div>
+
+# Shikhar Pratap Singh
+
+### Software Engineer · Backend · Distributed Systems
+
+**Building scalable systems with Java, Spring Boot & AI**
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cratesium&hide_border=true" height="165"/>
+[![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white)](#)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-000000?style=flat-square&logo=springboot&logoColor=white)](#)
+[![Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white)](#)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white)](#)
+[![AWS](https://img.shields.io/badge/AWS-000000?style=flat-square&logo=amazonwebservices&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white)](#)
+
 </div>
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cratesium&hide_border=true" width="100%"/>
-</div>
+### 👨‍💻 About
+
+Backend Software Engineer focused on **high-throughput distributed systems**, **event-driven architecture**, and **cloud-native infrastructure**.
+
+Currently exploring the intersection of **Agentic AI, MCP, LLM tool integration, and backend systems**.
+
+### ⚙️ Technologies
+
+```text
+Backend        Java · Spring Boot · WebFlux · REST · WebSocket · Microservices
+Data           MySQL · Redis · Elasticsearch
+Distributed    Apache Kafka · Event-Driven Systems
+AI             Agentic AI · MCP · LLM Tool Integration
+Cloud          AWS · Kubernetes · EKS · Docker · Jenkins · Flyway
+Observability  ELK · Prometheus · Grafana · Kibana
+Testing        JUnit · Mockito
+Engineering    System Design · DSA · SDLC · Agile · Git
