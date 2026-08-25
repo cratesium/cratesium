@@ -1,48 +1,36 @@
 <div align="center">
 
-# Shikhar Pratap Singh
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:203A43,100:2C5364&height=140&section=header&text=Shikhar%20Pratap%20Singh&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Backend%20Engineer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20AI&descSize=16&descAlignY=68" width="100%"/>
 
-### Software Engineer · Backend · Distributed Systems
+# Hey, I'm Shikhar 👋
 
-Building scalable, reliable systems with **Java, Cloud & AI**.
+### Building scalable systems, distributed infrastructure & intelligent applications.
 
 <br/>
 
-<img src="https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-000000?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-000000?style=flat-square&logo=amazonwebservices&logoColor=white"/>
-<img src="https://img.shields.io/badge/Agentic_AI-000000?style=flat-square"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 
 </div>
 
 ---
 
-## About
+## ⚡ About Me
 
-Backend Software Engineer focused on designing **high-throughput distributed systems**, **event-driven architectures**, and **cloud-native applications**.
+```java
+public class Shikhar {
 
-I enjoy working at the intersection of traditional backend engineering and modern AI systems — exploring **Agentic AI, MCP, LLM tool integration, RAG, and intelligent automation**.
+    String role = "Software Engineer";
+    
+    String[] interests = {
+        "Distributed Systems",
+        "Backend Engineering",
+        "Cloud Infrastructure",
+        "Agentic AI"
+    };
 
----
-
-## Tech & Tools
-
-```text
-Backend & APIs     Java · Spring Boot · WebFlux · REST APIs · WebSocket · Microservices
-
-Databases & Cache  MySQL · PostgreSQL · MongoDB · Redis · Elasticsearch
-
-Distributed       Apache Kafka · RabbitMQ · Event-Driven Architecture
-
-AI & Automation    Agentic AI · MCP · LLM Tool Integration · RAG · AI Workflows
-
-Cloud & DevOps     AWS · Kubernetes · EKS · Docker · Jenkins · Flyway
-                   Ansible · Terraform
-
-Observability      ELK Stack · Prometheus · Grafana · Kibana
-
-Testing            JUnit · Mockito
-
-Engineering        System Design · DSA · SDLC · Agile · Git
+    String motto = "Build systems that just work.";
+}
