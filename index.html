@@ -184,6 +184,8 @@
   .project-card { border: 2px solid var(--border); padding: 40px; }
   .project-num { font-family: var(--mono); font-size: 12px; color: var(--gray); margin-bottom: 16px; }
   .project-name { font-family: var(--serif); font-size: 28px; font-weight: bold; margin-bottom: 12px; }
+  .project-name a { color: inherit; text-decoration: none; }
+  .project-name a:hover { text-decoration: underline; }
   .project-stack { font-family: var(--mono); font-size: 12px; color: var(--black); margin-bottom: 20px; }
   .project-desc { font-size: 18px; color: var(--gray); line-height: 1.6; }
 
@@ -369,9 +371,16 @@
     <div>
       <div class="exp-title">Building mission-critical systems at scale</div>
       <ul class="exp-bullets">
-        <li>Designed a CDC-driven automation pipeline to detect critical state changes and trigger downstream processing, with an intermediate Kafka stage for deterministic behavior under high concurrent load.</li>
-        <li>Developed BFF Interceptors for cookie-based authentication on the Admin Panel.</li>
-        <li>Built a pipeline to replay Not Assigned Tasks, improving task recovery and system reliability.</li>
+        <li>Optimized <strong>SQL queries</strong> for a high-traffic search API, making it <strong>70% faster</strong> and <strong>50% cheaper</strong> to run on the same infrastructure, using query consolidation and composite <strong>MySQL indexes</strong>.</li>
+        <li>Migrated Spring Boot microservices from <strong>AWS EC2 to Amazon EKS</strong>: containerized them with <strong>Docker</strong>, set up <strong>Kubernetes</strong> deployments, autoscaling and health probes, and wired <strong>Jenkins CI/CD</strong> for rolling deployments.</li>
+        <li>Developed <strong>high-throughput</strong> services on <strong>Apache Kafka</strong>, <strong>Redis</strong> caching, <strong>MySQL</strong> and <strong>DynamoDB</strong>, handling heavy concurrent traffic with low latency.</li>
+        <li>Designed a <strong>CDC-driven</strong> automation pipeline on <strong>Kubernetes / AWS EKS</strong> using <strong>Apache Kafka</strong> with <strong>Dead Letter Topic (DLT)</strong> retries, so failed events are reprocessed, not lost.</li>
+        <li>Built multiple <strong>Spring Cloud Gateway filters</strong> and <strong>Spring interceptors</strong> in the BFF for authentication, authorization, request validation, route timeouts and PII-safe logging, backed by an <strong>in-memory cached</strong> route registry.</li>
+        <li>Built multiple <strong>cron jobs / schedulers</strong> and a <strong>fault-tolerant</strong> recovery pipeline that replays failed and “Not Assigned” tasks, with escalation replay and aging visibility.</li>
+        <li>Led a <strong>secure credential-management</strong> overhaul across microservices with <strong>zero-downtime</strong> config hot-refresh via atomic swaps.</li>
+        <li>Eliminated <strong>N+1 queries</strong> using batch loading; built bulk data normalization and address validation for a <strong>new market launch</strong>.</li>
+        <li>Designed paginated <strong>v2 REST APIs</strong> with API contracts, and cookie-based auth interceptors for Admin Panel portals.</li>
+        <li>Wrote <strong>100,000+ lines of JUnit 5 / Mockito</strong> tests across services, raising <strong>JaCoCo</strong> code coverage and clearing <strong>SonarQube</strong> issues.</li>
       </ul>
     </div>
   </div>
@@ -399,7 +408,7 @@
   <div class="projects-grid">
     <div class="project-card">
       <div class="project-num">001</div>
-      <div class="project-name">Kafka-Based In-Memory Cache Clearing System</div>
+      <div class="project-name"><a href="https://github.com/cratesium/kafka-atomic-cache" target="_blank" rel="noopener noreferrer">Kafka Atomic Cache ↗</a></div>
       <div class="project-stack">Spring Boot · Kafka · MySQL · Redis · EKS</div>
       <div class="project-desc">
         Reduced N database calls across N pods to a single coordinated call, significantly cutting DB load in multi-pod deployments. Implemented atomic swap state changes for cache ensuring zero cache misses during transitions. Designed an event-based cache clearing system using Kafka for reliable, ordered cache invalidation across pods.
@@ -407,10 +416,10 @@
     </div>
     <div class="project-card">
       <div class="project-num">002</div>
-      <div class="project-name">Smart Site Reliability System</div>
-      <div class="project-stack">Java · Python · MySQL · MCP · Redis · Kubernetes · EKS</div>
+      <div class="project-name"><a href="https://github.com/cratesium/application-load-balancer" target="_blank" rel="noopener noreferrer">Application Load Balancer ↗</a></div>
+      <div class="project-stack">Java 21 · Spring WebFlux · Reactor Netty · Prometheus · Docker</div>
       <div class="project-desc">
-        Built an automated chat-based SRE tool capable of scaling pods up/down and detecting and healing unhealthy pods on Kubernetes. Integrated heap dump analysis for Java apps to detect memory irregularities and trigger GC when needed. Generates automated reliability reports summarizing system health, actions taken, and resource utilization.
+        Built a non-blocking HTTP reverse proxy and load balancer with seven runtime-switchable algorithms. Added active and passive health checks, retries, per-backend circuit breakers, connection pooling, connection draining and graceful shutdown. Exposed Prometheus metrics, structured logging and an authenticated admin API to reconfigure backends, weights and algorithms live — backed by 235 tests.
       </div>
     </div>
   </div>
